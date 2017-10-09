@@ -6,3 +6,9 @@
 // JS for the side navebar
  // Initialize contact SideBar
   $("#contactSideBar").sideNav();
+
+  //js for the carasoul
+
+      $(document).ready(function(){
+      $('.carousel').carousel();
+    });
