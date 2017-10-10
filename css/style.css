@@ -60,10 +60,14 @@ footer.page-footer {
   width: 15%;
 }
 
-i.icon-blue {
-  color:#0277bd;
+i.icon-purple {
+  color:#bd0277;
 }
 
 .profileRow {
   margin-bottom: 0;
+}
+
+.greenDiv {
+  background-color: #02bda6;
 }
