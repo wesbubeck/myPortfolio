@@ -12,6 +12,6 @@ module.exports = function(app) {
     app.use(express.static("public"));
     //the route for the home page
     app.get("*", function(req, res) {
-        res.sendFile(path.join(__dirname, "../public/home.html"));
+        res.sendFile(path.join(__dirname, "../public/index.html"));
     });
 };
