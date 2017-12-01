@@ -83,3 +83,8 @@ i.icon-purple {
 .bio-title {
   color: #02bda6;
 }
+
+.imgProjects {
+  max-width: 100%;
+  height: auto;
+}
