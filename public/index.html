@@ -119,7 +119,8 @@
                 <div class="divider"></div>
                 <br><br>
                 <!-- Modal Trigger -->
-                <a class="waves-effect waves-light btn" href="https://docs.google.com/document/d/1L4xT8GUSZfdpB66q_L8t03N4ldAUjosdHac-bORO_uI/edit?usp=sharing" target="_blank">Resume</a>
+                <a class="waves-effect waves-light btn" href="https://docs.google.com/document/d/1L4xT8GUSZfdpB66q_L8t03N4ldAUjosdHac-bORO_uI/edit?usp=sharing"
+                  target="_blank">Resume</a>
               </div>
             </div>
             <br>
@@ -163,13 +164,13 @@
                   <div class="col s12 m6">
                     <div class="card blue-grey darken-1">
                       <div class="card-content white-text">
-                        <span class="card-title">Family Board</span>
-                        <img class="imgProjects" src="ProjectImages/familyBoard.png" alt="Family Message Board">
+                        <span class="card-title">Crewify</span>
+                        <img class="imgProjects" src="ProjectImages/crewify.png" alt="Crewify">
                       </div>
                       <div class="card-action">
-                        <a href="#modalFamily" class="modal-trigger">About</a>
-                        <a href="https://github.com/WTB20/myFamilyMessageBoard" target="_blank">Repo</a>
-                        <a href="https://blooming-peak-16225.herokuapp.com/blog" target="_blank">App</a>
+                        <a href="#modalCrewify" class="modal-trigger">About</a>
+                        <a href="https://github.com/WTB20/Crewify" target="_blank">Repo</a>
+                        <a href="https://agile-fortress-21519.herokuapp.com/" target="_blank">App</a>
                       </div>
                     </div>
                   </div>
@@ -206,31 +207,67 @@
                   <div class="col s12 m6">
                     <div class="card blue-grey darken-1">
                       <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
-                          I require little markup to use effectively.</p>
+                        <span class="card-title">Family Board</span>
+                        <img class="imgProjects" src="ProjectImages/familyBoard.png" alt="Family Message Board">
                       </div>
                       <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
+                        <a href="#modalFamily" class="modal-trigger">About</a>
+                        <a href="https://github.com/WTB20/myFamilyMessageBoard" target="_blank">Repo</a>
+                        <a href="https://blooming-peak-16225.herokuapp.com/blog" target="_blank">App</a>
                       </div>
                     </div>
                   </div>
                   <div class="col s12 m6">
                     <div class="card blue-grey darken-1">
                       <div class="card-content white-text">
-                        <span class="card-title">Card Title</span>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
-                          I require little markup to use effectively.</p>
+                        <span class="card-title">My Portfolio</span>
+                        <img class="imgProjects" src="ProjectImages/portfolio.png" alt="My Portfolio">
                       </div>
                       <div class="card-action">
-                        <a href="#">This is a link</a>
-                        <a href="#">This is a link</a>
+                        <a href="#modalPortfolio" class="modal-trigger">About</a>
+                        <a href="https://github.com/WTB20/myPortfolio" target="_blank">Repo</a>
+                        <a href="https://gentle-stream-24056.herokuapp.com/" target="_blank">App</a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <!--Modals for cards-->
+                <!--My Portfolio-->
+                <div id="modalPortfolio" class="modal">
+                  <div class="modal-content">
+                    <h4>Portfolio</h4>
+                    <p>This is webpage dedicated to my portfolio. It is written in HTML CSS and JavaScript. The styling is done
+                      in Google's Materializes CSS. Page is mobile friendly. It includes my bio in a modal that opens through
+                      a button click. Links to navigate the page are on a side bar on the right handside. The hamburger on
+                      the top left hand side of the page will open a side bar that include links to github, linkedin, and
+                      link to email or call me. Technologies that I am most comfortable with are displayed in a carousel.
+                      **Note MaterializeCSS needed to be alter to make Carousel "finger swipe" work in mobile.
+                    </p>
+                    <p class="center-align light">Java Script | ES6 | Node.js | NPM | GitHub | Express | HTML 5 | Visual Code Studio | CSS 3 | Materialize
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+                <!--Crewify-->
+                <div id="modalCrewify" class="modal">
+                  <div class="modal-content">
+                    <h4>Crewify</h4>
+                    <p>A web app that is a project management software. It gives a project manager the ability to create job,
+                      include all the specs and customer data, assign a crew and other metrics. The data for the job is stored
+                      and is searchable by authorized personnel. Crew members have mobile access to a determined amount of
+                      data that can be live updated by the Project Manager. Once the job is complete the crew lead will mark
+                      the job completed and add job notes. All data is stored and Efficiency Metrics are generated and reported
+                      to the Project Manager
+                    </p>
+                    <p class="center-align light">Java Script | ES6 | Node.js | React | NPM | GitHub | Express | Axios | HTML 5 | Visual Code Studio |
+                      CSS 3 | BootStrap </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
                 <!--Crypto-News-->
                 <div id="modalCrypto" class="modal">
                   <div class="modal-content">
@@ -286,8 +323,8 @@
                       The App is built in React and uses an API that will search for recipes based on the users input. It
                       will display a title, picture, description and a link to the source of the recipe.
                     </p>
-                    <p class="center-align light">Java Script | ES6 | Node.js | React | NPM | GitHub | Express | HTML 5 | Visual Code Studio | CSS 3 |
-                      Bootstrap </p>
+                    <p class="center-align light">Java Script | ES6 | Node.js | React | NPM | GitHub | Express | Axios | HTML 5 | Visual Code Studio |
+                      CSS 3 | Bootstrap </p>
                   </div>
                   <div class="modal-footer">
                     <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
@@ -376,7 +413,10 @@
           <div class="row section scrollspy" id="aboutMe">
             <div class="col l6 s12">
               <h5 class="white-text">About Me</h5>
-              <p class="grey-text text-lighten-4">Certified Full Stack Web Developer with a passion for Innovation. Strong personal assets are Work Ethic, Problem Solving, and the Ability to Learn new concepts. Career has been in Management, Marketing, and Branding. Experience has cultivated strong skills in Problem Solving, Team Leadership, Desire to Learn and Grow, Time Management, and a ferocious Work Ethic.</p>
+              <p class="grey-text text-lighten-4">Certified Full Stack Web Developer with a passion for Innovation. Strong personal assets are Work Ethic, Problem
+                Solving, and the Ability to Learn new concepts. Career has been in Management, Marketing, and Branding. Experience
+                has cultivated strong skills in Problem Solving, Team Leadership, Desire to Learn and Grow, Time Management,
+                and a ferocious Work Ethic.</p>
               <!--<p>I am Software Development Engineer who loves programming in JavaScript, React, Node.js, , MongoDB, MySQL,
                       HTML, CSS, BootStrap, Alexa Skills and much more. Software Development is not just my career it is
                       my passion. I love the process of having a problem, the tension of working through it with your team,
